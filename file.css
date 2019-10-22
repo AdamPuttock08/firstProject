@@ -1,0 +1,133 @@
+/* file.css */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px; 
+  font-family: "Verdana", Sans-serif;
+  font-weight: normal;
+}
+
+p {
+font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	
+}
+
+ul input[type=text] {
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #ddd;
+	transition: all 0.4s;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container1 {
+	flex: 33.3%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.container2 {
+	flex: 33.3%;
+	background-color: white;
+	padding: 20px;
+	content: url('/images/Adam1.jpg');
+}
+
+.container3 {
+	flex: 33.3%;
+	background-color: lightgrey;
+	padding: 20px;
+}
+
+.homepage {
+	text-align: center;
+	font-family: "Verdana", Sans-serif;
+	font-weight: normal;
+	margin: 20px 0;
+}
+
+.aboutme {
+	text-align: center;
+	font-family: "Verdana", Sans-serif;
+	font-weight: normal;
+	margin: 20px 0;
+}
+
+p {
+	font-family: "Verdana", Sans-serif;
+	font-weight: normal;
+}
+
+.image {
+	border-radius: 5px;
+	align-content: right;
+}
+
+.icons {
+	text-align: right;
+	background-color: #1abc9c;
+	padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
